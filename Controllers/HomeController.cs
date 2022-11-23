@@ -13,13 +13,15 @@ namespace SalesWebMvc.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index() 
         {
             return View();
         }
 
         public IActionResult Privacy()
         {
+            ViewData["email"] = "teste@gmail.com";
+
             return View();
         }
 
