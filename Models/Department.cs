@@ -15,7 +15,5 @@ namespace SalesWebMvc.Models
         public string Name { get; set; }
 
 
-
-
     }
 }
